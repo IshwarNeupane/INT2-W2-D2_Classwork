@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(https://freewebsitetemplates.com/preview/gardenwalkthrough/images/bg-body.jpg);
+    background-repeat: repeat;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 3em;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 3px dashed grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+header h1 {
+    font-family: 'Merriweather';
+    font-size: 13pt;
+    color: rgb(33, 97, 139);
+    margin-left: 19.5em;
+}
+header h1:hover {
+    color: rgb(39, 39, 39);
+}
+header h1:hover,
+.header-div span:hover,
+.page-nav ul li:hover,
+.page-header img:hover,
+.page-img-disc h3:hover,
+.arrow-icon:hover,
+.page-img-info div span h3:hover,
+.garden-footer-1 p:hover,
+.garden-footer div p:hover,
+.garden-footer-4 p:hover i:hover
+{
+    cursor: pointer;
+}
+.header-div {
+    margin-right: 19.5em;
+}
+.header-div,
+.page-header,
+.page-nav ul,
+.page-img-info,
+.info-1,
+.info-2,
+.info-3,
+.page-garden-container,
+.garden-tips,
+.garden-footer,
+.plants-body,
+.plants-body,
+.plants-body
+ {
+    display: flex;
+}
+.header-div span {
+    display: inline-block;
+    margin: 0 .5em;
+    color: rgba(128, 128, 128, 0.726);
+    font-weight: 500;
+}
+.header-div span:hover {
+    color: rgb(33, 97, 139);
+}
+.page {
+    background: #356618;
+    height: max-content;
+    width: auto;
+    margin: 0 19.5em 2em 19.5em;
+    padding: 0 2em 2em 2em;
+}
+.page-header {
+    background: #fff;
+    height: 6em;
+    width: auto;
+    justify-content: center;
+}
+.page-header img {
+    height: 4em;
+    width: auto;
+}
+.page-nav {
+    width: 100%;
+    height: max-content;
+    background: #777777e4;
+}
+.page-nav ul {
+    width: 100%;
+    justify-content: space-evenly;
+}
+.page-nav ul li {
+    list-style: none;
+    padding: .8em 0;
+    text-align: center;
+    width: 100%;
+}
+.page-nav ul li:hover {
+    background: rgb(96, 155, 166);
+}
+.page-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.page-img-content {
+    width: auto;
+    height: 26em;
+    position: relative;
+}
+.page-img-content img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.page-img-disc {
+    font-family: 'poppins';
+    color: #fff;
+    background: #25262494;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    height: max-content;
+    width: auto;
+}
+.page-img-disc h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e3e699;
+    font-weight: 500!important;
+    font-size: 17pt;
+    margin-bottom: .5em;
+}
+.page-img-disc h3:hover {
+    color: #fff;
+}
+.page-img-content a{
+    text-decoration: none;
+    color: #fff;
+}
+.page-img-content a .arrow-icon {
+    padding: .5em;
+    background: #546b9d;
+    border-radius: 50%;
+    font-size: 10pt;
+}
+
+.page-img-content a .arrow-icon:hover {
+    background: rgb(235, 169, 3);
+}
+.page-img-info {
+    width: auto;
+    padding: 1em;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'poppins';
+    justify-content: space-evenly;
+}
+.page-img-info div {
+    width: 15em;
+    padding-left: 1em;
+}
+.info-1 img,
+.info-2 img,
+.info-3 img {
+    height: 6.5em;
+    width: auto;
+    border: 1.7px solid #fff;
+}
+.page-img-info div span {
+    display: block;
+}
+.page-img-info div span h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500!important;
+    font-size: 15pt;
+    color: #e3e699;
+    margin-bottom: .5em;
+}
+.page-img-info div span h3:hover {
+    color: #fff;
+}
+.page-img-info div img {
+    margin-right: .9em;
+}
+.page-img-info div p {
+    font-size: 10pt;
+}
+.page-img-info div:nth-child(2),
+.page-img-info div:nth-child(3) {
+    border-left: .5px solid rgb(198, 196, 196);
+}
+.page-garden {
+    width: auto;
+    height: max-content;
+    background: rgba(255, 255, 255, 0.877);
+    padding: 1em;
+}
+.page-garden h2,
+.garden-tips-1 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400!important;
+    font-size: 15pt;
+    background: #b5cba6;
+    padding: .5em 0 .5em 1.3em;
+    color: rgb(176, 45, 84);
+    border-bottom: 2px solid #769761e2;
+}
+.page-garden-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.page-garden-container div {
+    display: block;
+    width: 11em;
+}
+.page-garden-container div img {
+    height: 11em;
+    width: auto;
+}
+.page-garden-container div h3 {
+    font-weight: 400!important;
+    color: rgb(176, 45, 84);
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page-garden-container div p {
+    font-family: 'poppins';
+    font-size: 10pt;
+}
+.page-garden-container hr {
+    background: rgba(128, 128, 128, 0.584);
+}
+.garden-tips img {
+    width: 20em;
+    height: auto;
+}
+.garden-tips-1 {
+    display: block;
+    width: 100%;
+    margin-left: 2em;
+}
+.garden-tips-1 h3 {
+    margin-left: -.7em;
+    margin-bottom: 1.3em;
+}
+.garden-tips {
+    width: auto;
+    margin: 1em 0;
+}
+.garden-tips-1 ol li {
+    margin-bottom: .7em;
+    font-family: 'poppins';
+    font-size: 10pt;
+}
+.garden-footer {
+    height: max-content;
+    width: auto;
+    justify-content: space-evenly;
+    background: #b5cba6;
+    padding: 1em;
+}
+.garden-footer div h3 {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400!important;
+    font-size: 15pt;
+    margin-bottom: .8em;
+}
+.garden-footer div p {
+    color: gray;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 10pt;
+}
+.garden-footer div p:hover {
+    color: black;
+}
+.garden-footer-4 p i {
+    margin-right: .5em;
+    font-size: 19pt;
+    color: #356618;
+}
+.garden-footer-4 p:hover i:hover {
+    color: #468820d3;
+}
+.copy-right {
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 8pt;
+    margin: 1.5em;
+    color: #fff;
+}
+.active{
+    background-color: #819672;
+}
+@media only screen and (max-width:1200px) {
+    .page {
+    width: auto;
+    margin: 0 0 2em 0;
+    padding: 0 2em 2em 2em;
+    }
+}
+
+/* Page not found */
+.page-not-found{
+    width: auto;
+    justify-content: center;
+    margin: 3em 0;
+    background-color: #fff;
+    padding: 1em;
+    height: max-content;
+    font-family: 'poppins';
+    text-align: center;
+}
+.page-not-found h1{
+    font-family: 'Merriweather';
+}
+.page-not-found h1 span{
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(56, 20, 125);
+    font-size: 20pt !important;
+}
+.page-not-found p{
+    margin-top: 2em;
+}
+
+/* for about page */
+.about-body-content,
+.plants-body-content,
+.garden-body-content,
+.contact-body-content{
+    height: max-content;
+    background-color: #fff;
+    width: auto;
+    padding: 2em 1em;
+    font-family: 'poppins';
+}
+.about-body-content h1{
+    margin-bottom: 1em;
+}
+.about-body-content h1,
+.plants-body-content h1,
+.garden-body-content h1,
+.contact-body-content h1{
+    font-size: 15pt;
+    font-weight: 600 !important;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-body-content h3,
+.label-font{
+    font-weight: 400 !important;
+    font-size: 13pt;
+}
+.about-body-content h3,
+.plants-body-content h3,
+.garden-body-content h3,
+.label-font,
+.plants-body-head{
+    color:#7c3333; 
+}
+.about-body-content p,
+.plants-body-content p,
+.garden-body-content p,
+.contact-body-content p,
+.plants-body-para{
+    font-size: 10pt;
+    padding: 1.5em 0;
+    line-height: 1.7;
+}
+.about-body-content p span a,
+.plants-body-content p span a,
+.plants-body-para span a,
+.garden-body-content p span a{
+    text-decoration: underline;
+    color: #356618;
+}
+.about-body-content p span:hover a,
+.plants-body-content p span:hover a,
+.plants-body-para span:hover a,
+.garden-body-para span:hover a{
+    color: #356618d5;
+}
+.plants-body-content h3,
+.plants-body-head{
+  font-weight: 600 !important;
+  font-size: 10pt;
+  margin: 2em 0;
+}
+.plants-body img{
+    width: 18em;
+    height: auto;
+    margin: 1em 1em 1em 0;
+}
+.contact-body-content form{
+    display: flex;
+    width: auto;
+    
+}
+.contact-body-content form div label,
+.contact-body-content form div input{
+       display: flex;
+       flex-direction: column;
+}
+.contact-body-content form div:nth-child(2){
+    margin-left: 3.5em;
+}
+.contact-body-content form div:nth-child(2) input,
+.contact-body-content form div:nth-child(2) textarea{
+    background-color: #b5cba6;
+    border: none;
+    margin: .3em 0;
+    font-family: 'poppins';
+    font-size: 10pt;
+    width: 20em;
+}
+.contact-body-content form div:nth-child(2) input{
+    height: 1.5em;
+}
